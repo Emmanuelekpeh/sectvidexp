@@ -25,7 +25,7 @@ window:
 # p50 motion (8.7px/frame) is ~2x noise p50 but below noise p90 (21px):
 # per-point confidence weighting is required (spec 6.2).
 motion_bins:
-  still_max_speed: 0.02    # guess, normalized image units per second
+  still_max_speed: 0.063   # calibrated: 1.35 px/frame @512px / 512 * 24fps = 0.063 norm/s
   fast_min_speed: 0.15     # guess
   min_observed_frac: 0.5   # guess: windows with a lower fraction of observed
                            # steps are labeled "unobserved", not still
