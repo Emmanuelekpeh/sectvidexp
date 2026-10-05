@@ -1,0 +1,167 @@
+{
+ "meta": {
+  "sectvid_version": "4.0.0",
+  "config_path": "C:\\Users\\emman\\Downloads\\sectvid-master\\configs\\default.yaml",
+  "seed": 12345,
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "generated_at": "2026-10-05T15:11:18.784765+00:00"
+ },
+ "purpose": "still-bin boundary calibration (owner option B, 2026-10-05)",
+ "clips": [
+  {
+   "clip": "1-hour-karate-workout-video_clip_0013",
+   "speed_p50_px": 0.9234072460235688,
+   "speed_p90_px": 3.0301469680869464,
+   "net_p50_px": 4.566917395250589,
+   "jitter_p50_px": 2.2028918266296387,
+   "jitter_p90_px": 2.585579514503479,
+   "speed_p50_over_noise_p90": 0.3571374389547231,
+   "net_p50_over_sqrtn_noise_p90": 0.3172374214385084,
+   "obs_frac": null
+  },
+  {
+   "clip": "1-hour-karate-workout-video_clip_0012",
+   "speed_p50_px": 1.1372222213386687,
+   "speed_p90_px": 3.007409189520455,
+   "net_p50_px": 4.036975025809927,
+   "jitter_p50_px": 2.2657021284103394,
+   "jitter_p90_px": 2.553209662437439,
+   "speed_p50_over_noise_p90": 0.4454088663650958,
+   "net_p50_over_sqrtn_noise_p90": 0.28398064187684213,
+   "obs_frac": null
+  },
+  {
+   "clip": "1-hour-karate-workout-video_clip_0011",
+   "speed_p50_px": 1.2992337230043436,
+   "speed_p90_px": 2.8208647307435335,
+   "net_p50_px": 4.198249264797244,
+   "jitter_p50_px": 2.5808799266815186,
+   "jitter_p90_px": 5.064619660377502,
+   "speed_p50_over_noise_p90": 0.25653135084728207,
+   "net_p50_over_sqrtn_noise_p90": 0.14888143192402956,
+   "obs_frac": null
+  },
+  {
+   "clip": "1-hour-karate-workout-video_clip_0256",
+   "speed_p50_px": 1.3667961424489405,
+   "speed_p90_px": 2.3109873262298404,
+   "net_p50_px": 4.105985654499307,
+   "jitter_p50_px": 2.3649239540100098,
+   "jitter_p90_px": 3.1904168128967285,
+   "speed_p50_over_noise_p90": 0.42840676394504157,
+   "net_p50_over_sqrtn_noise_p90": 0.2311474759701951,
+   "obs_frac": null
+  },
+  {
+   "clip": "1-hour-karate-workout-video_clip_0261",
+   "speed_p50_px": 1.4200870399268957,
+   "speed_p90_px": 2.862096149465248,
+   "net_p50_px": 5.237220969556931,
+   "jitter_p50_px": 2.660224199295044,
+   "jitter_p90_px": 4.381402015686035,
+   "speed_p50_over_noise_p90": 0.32411703715906104,
+   "net_p50_over_sqrtn_noise_p90": 0.2146875932979066,
+   "obs_frac": null
+  },
+  {
+   "clip": "1-hour-karate-workout-video_clip_0123",
+   "speed_p50_px": 1.5257006657451506,
+   "speed_p90_px": 3.20859993710643,
+   "net_p50_px": 5.091881902473002,
+   "jitter_p50_px": 2.135373830795288,
+   "jitter_p90_px": 2.880339026451111,
+   "speed_p50_over_noise_p90": 0.5296948212464346,
+   "net_p50_over_sqrtn_noise_p90": 0.3175074109609699,
+   "obs_frac": null
+  },
+  {
+   "clip": "video8",
+   "speed_p50_px": 1.5864289205718234,
+   "speed_p90_px": 2.6521665625420017,
+   "net_p50_px": 3.6782562467124933,
+   "jitter_p50_px": 2.9344934225082397,
+   "jitter_p90_px": 3.612866848707199,
+   "speed_p50_over_noise_p90": 0.4391052831464019,
+   "net_p50_over_sqrtn_noise_p90": 0.1828559843989449,
+   "obs_frac": null
+  },
+  {
+   "clip": "0081ResponsibilitiesOfAmericanCitizenshipThe_clip_0012_c7",
+   "speed_p50_px": 1.8114370377439497,
+   "speed_p90_px": 2.916407037909578,
+   "net_p50_px": 6.322927721237249,
+   "jitter_p50_px": null,
+   "jitter_p90_px": null,
+   "speed_p50_over_noise_p90": null,
+   "net_p50_over_sqrtn_noise_p90": null,
+   "obs_frac": null
+  },
+  {
+   "clip": "video123",
+   "speed_p50_px": 1.9740117391903313,
+   "speed_p90_px": 4.771235691763274,
+   "net_p50_px": 5.019877942549417,
+   "jitter_p50_px": 22.80754804611206,
+   "jitter_p90_px": 24.903785228729248,
+   "speed_p50_over_noise_p90": 0.07926553016178008,
+   "net_p50_over_sqrtn_noise_p90": 0.03620319906104245,
+   "obs_frac": null
+  },
+  {
+   "clip": "98-taiwan-training_clip_0037",
+   "speed_p50_px": 2.008922151918946,
+   "speed_p90_px": 3.587270752966432,
+   "net_p50_px": 5.818796750348661,
+   "jitter_p50_px": 2.7813409566879272,
+   "jitter_p90_px": 3.7538613080978394,
+   "speed_p50_over_noise_p90": 0.5351615275677057,
+   "net_p50_over_sqrtn_noise_p90": 0.27840313266883987,
+   "obs_frac": null
+  },
+  {
+   "clip": "Merantau_clip_0340",
+   "speed_p50_px": 19.368769297775565,
+   "speed_p90_px": 50.620272730304656,
+   "net_p50_px": 89.37859877463093,
+   "jitter_p50_px": 11.80142593383789,
+   "jitter_p90_px": 11.80142593383789,
+   "speed_p50_over_noise_p90": 1.6412227985297987,
+   "net_p50_over_sqrtn_noise_p90": 1.3602483562278342,
+   "obs_frac": null
+  },
+  {
+   "clip": "Merantau_clip_0342",
+   "speed_p50_px": 19.635390673474546,
+   "speed_p90_px": 53.13054986162144,
+   "net_p50_px": 97.03291741872114,
+   "jitter_p50_px": 13.675006866455078,
+   "jitter_p90_px": 17.505315399169923,
+   "speed_p50_over_noise_p90": 1.1216816278789028,
+   "net_p50_over_sqrtn_noise_p90": 0.9955619788692818,
+   "obs_frac": null
+  },
+  {
+   "clip": "Merantau_clip_0349",
+   "speed_p50_px": 19.915209532805655,
+   "speed_p90_px": 52.76032305003861,
+   "net_p50_px": 26.965378983498567,
+   "jitter_p50_px": 54.93634796142578,
+   "jitter_p90_px": 54.93634796142578,
+   "speed_p50_over_noise_p90": 0.3625142600813101,
+   "net_p50_over_sqrtn_noise_p90": 0.08815884594291501,
+   "obs_frac": null
+  },
+  {
+   "clip": "Merantau_clip_0310",
+   "speed_p50_px": 29.846576945742108,
+   "speed_p90_px": 59.18225705424754,
+   "net_p50_px": 122.91528021237295,
+   "jitter_p50_px": null,
+   "jitter_p90_px": null,
+   "speed_p50_over_noise_p90": null,
+   "net_p50_over_sqrtn_noise_p90": null,
+   "obs_frac": null
+  }
+ ]
+}

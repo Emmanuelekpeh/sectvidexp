@@ -1,0 +1,1643 @@
+{
+ "meta": {
+  "sectvid_version": "4.0.0",
+  "config_path": "C:\\Users\\emman\\Downloads\\sectvid-master\\configs\\default.yaml",
+  "seed": 12345,
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "generated_at": "2026-10-05T15:16:15.542315+00:00"
+ },
+ "stage": 1,
+ "n_clips": 131,
+ "window": {
+  "length": 32,
+  "stride": 16,
+  "min_clip_frames": 48
+ },
+ "motion_bins": {
+  "still_max_speed": 0.02,
+  "fast_min_speed": 0.15,
+  "min_observed_frac": 0.5,
+  "sample_quotas": {
+   "still": 0.34,
+   "slow": 0.33,
+   "fast": 0.33
+  }
+ },
+ "cache_complete": true,
+ "missing_caches": [],
+ "clip_stats": {
+  "001132_clip_0003": {
+   "n_frames": 166,
+   "ok_rate": 0.030120481927710843,
+   "n_windows": 9,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 9
+   }
+  },
+  "001132_clip_0016": {
+   "n_frames": 80,
+   "ok_rate": 0.025,
+   "n_windows": 4,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 4
+   }
+  },
+  "001132_clip_0019": {
+   "n_frames": 154,
+   "ok_rate": 0.16883116883116883,
+   "n_windows": 8,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 8
+   }
+  },
+  "001132_clip_0022": {
+   "n_frames": 117,
+   "ok_rate": 0.6752136752136753,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 4,
+    "unobserved": 2
+   }
+  },
+  "0081ResponsibilitiesOfAmericanCitizenshipThe_clip_0012_c7": {
+   "n_frames": 95,
+   "ok_rate": 0.8421052631578947,
+   "n_windows": 4,
+   "bins": {
+    "still": 0,
+    "slow": 3,
+    "fast": 1,
+    "unobserved": 0
+   }
+  },
+  "0081ResponsibilitiesOfAmericanCitizenshipThe_clip_0016_c14": {
+   "n_frames": 231,
+   "ok_rate": 0.9956709956709957,
+   "n_windows": 13,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 13,
+    "unobserved": 0
+   }
+  },
+  "0105_To_the_Fair_17_31_23_00_clip_0002": {
+   "n_frames": 136,
+   "ok_rate": 0.07352941176470588,
+   "n_windows": 7,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 7
+   }
+  },
+  "0105_To_the_Fair_17_31_23_00_clip_0018": {
+   "n_frames": 324,
+   "ok_rate": 0.04938271604938271,
+   "n_windows": 19,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 19
+   }
+  },
+  "0105_To_the_Fair_17_31_23_00_clip_0022": {
+   "n_frames": 89,
+   "ok_rate": 0.5393258426966292,
+   "n_windows": 4,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 3,
+    "unobserved": 1
+   }
+  },
+  "0545_Chevrolet_Leader_News_Vol_5_No_1_M00643_23_20_56_06_clip_0004": {
+   "n_frames": 153,
+   "ok_rate": 0.5751633986928104,
+   "n_windows": 8,
+   "bins": {
+    "still": 0,
+    "slow": 2,
+    "fast": 4,
+    "unobserved": 2
+   }
+  },
+  "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0084_c10": {
+   "n_frames": 149,
+   "ok_rate": 0.0,
+   "n_windows": 8,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 8
+   }
+  },
+  "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0087_c9": {
+   "n_frames": 209,
+   "ok_rate": 0.2966507177033493,
+   "n_windows": 12,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 11
+   }
+  },
+  "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0195_c14": {
+   "n_frames": 220,
+   "ok_rate": 0.0,
+   "n_windows": 12,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 12
+   }
+  },
+  "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0198_c13": {
+   "n_frames": 509,
+   "ok_rate": 0.060903732809430254,
+   "n_windows": 30,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 29
+   }
+  },
+  "0923_Some_Fruits_We_Like_00_01_00_29_clip_0012": {
+   "n_frames": 187,
+   "ok_rate": 0.0,
+   "n_windows": 10,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 10
+   }
+  },
+  "098863_201908_clip_0008": {
+   "n_frames": 84,
+   "ok_rate": 0.2619047619047619,
+   "n_windows": 4,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 2
+   }
+  },
+  "098863_201908_clip_0009": {
+   "n_frames": 81,
+   "ok_rate": 0.0,
+   "n_windows": 4,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 4
+   }
+  },
+  "1-hour-karate-workout-video_clip_0011": {
+   "n_frames": 496,
+   "ok_rate": 1.0,
+   "n_windows": 30,
+   "bins": {
+    "still": 0,
+    "slow": 28,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "1-hour-karate-workout-video_clip_0012": {
+   "n_frames": 324,
+   "ok_rate": 1.0,
+   "n_windows": 19,
+   "bins": {
+    "still": 0,
+    "slow": 19,
+    "fast": 0,
+    "unobserved": 0
+   }
+  },
+  "1-hour-karate-workout-video_clip_0013": {
+   "n_frames": 448,
+   "ok_rate": 1.0,
+   "n_windows": 27,
+   "bins": {
+    "still": 0,
+    "slow": 25,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "1-hour-karate-workout-video_clip_0063": {
+   "n_frames": 110,
+   "ok_rate": 0.39090909090909093,
+   "n_windows": 5,
+   "bins": {
+    "still": 0,
+    "slow": 2,
+    "fast": 0,
+    "unobserved": 3
+   }
+  },
+  "1-hour-karate-workout-video_clip_0123": {
+   "n_frames": 130,
+   "ok_rate": 1.0,
+   "n_windows": 7,
+   "bins": {
+    "still": 0,
+    "slow": 5,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "1-hour-karate-workout-video_clip_0212": {
+   "n_frames": 48,
+   "ok_rate": 1.0,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 2,
+    "fast": 0,
+    "unobserved": 0
+   }
+  },
+  "1-hour-karate-workout-video_clip_0256": {
+   "n_frames": 103,
+   "ok_rate": 1.0,
+   "n_windows": 5,
+   "bins": {
+    "still": 0,
+    "slow": 5,
+    "fast": 0,
+    "unobserved": 0
+   }
+  },
+  "1-hour-karate-workout-video_clip_0261": {
+   "n_frames": 362,
+   "ok_rate": 1.0,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 19,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "102758_c14": {
+   "n_frames": 55,
+   "ok_rate": 0.5272727272727272,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 1
+   }
+  },
+  "104045_c11": {
+   "n_frames": 34,
+   "ok_rate": 0.14705882352941177,
+   "n_windows": 1,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 1
+   }
+  },
+  "104485_c6": {
+   "n_frames": 40,
+   "ok_rate": 0.0,
+   "n_windows": 1,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 1
+   }
+  },
+  "105848_c14": {
+   "n_frames": 54,
+   "ok_rate": 0.0,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 2
+   }
+  },
+  "106521_c5": {
+   "n_frames": 47,
+   "ok_rate": 0.1276595744680851,
+   "n_windows": 1,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 1
+   }
+  },
+  "108157_c10": {
+   "n_frames": 66,
+   "ok_rate": 0.4090909090909091,
+   "n_windows": 3,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 2
+   }
+  },
+  "11088_c8": {
+   "n_frames": 56,
+   "ok_rate": 0.07142857142857142,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 2
+   }
+  },
+  "11440_c11": {
+   "n_frames": 49,
+   "ok_rate": 0.6122448979591837,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "11878_c12": {
+   "n_frames": 65,
+   "ok_rate": 0.06153846153846154,
+   "n_windows": 3,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 3
+   }
+  },
+  "13374_c13": {
+   "n_frames": 27,
+   "ok_rate": 0.8148148148148148,
+   "n_windows": 0,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 0
+   }
+  },
+  "14615_c6": {
+   "n_frames": 57,
+   "ok_rate": 0.3508771929824561,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 2
+   }
+  },
+  "14880_c11": {
+   "n_frames": 46,
+   "ok_rate": 0.043478260869565216,
+   "n_windows": 1,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 1
+   }
+  },
+  "16167_c9": {
+   "n_frames": 56,
+   "ok_rate": 0.0,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 2
+   }
+  },
+  "1776_c7": {
+   "n_frames": 30,
+   "ok_rate": 0.4,
+   "n_windows": 0,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 0
+   }
+  },
+  "180163_c13": {
+   "n_frames": 45,
+   "ok_rate": 0.9333333333333333,
+   "n_windows": 1,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 0
+   }
+  },
+  "96-demo_clip_0003": {
+   "n_frames": 1211,
+   "ok_rate": 0.8199834847233691,
+   "n_windows": 74,
+   "bins": {
+    "still": 0,
+    "slow": 4,
+    "fast": 57,
+    "unobserved": 13
+   }
+  },
+  "96-demo_clip_0011": {
+   "n_frames": 514,
+   "ok_rate": 0.9396887159533074,
+   "n_windows": 31,
+   "bins": {
+    "still": 0,
+    "slow": 3,
+    "fast": 26,
+    "unobserved": 2
+   }
+  },
+  "96-demo_clip_0016": {
+   "n_frames": 562,
+   "ok_rate": 0.9893238434163701,
+   "n_windows": 34,
+   "bins": {
+    "still": 0,
+    "slow": 7,
+    "fast": 27,
+    "unobserved": 0
+   }
+  },
+  "96-demo_clip_0017": {
+   "n_frames": 269,
+   "ok_rate": 0.9962825278810409,
+   "n_windows": 15,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 15,
+    "unobserved": 0
+   }
+  },
+  "96-demo_clip_0029": {
+   "n_frames": 535,
+   "ok_rate": 0.9719626168224299,
+   "n_windows": 32,
+   "bins": {
+    "still": 0,
+    "slow": 4,
+    "fast": 27,
+    "unobserved": 1
+   }
+  },
+  "96-demo_clip_0031": {
+   "n_frames": 854,
+   "ok_rate": 0.9894613583138173,
+   "n_windows": 52,
+   "bins": {
+    "still": 0,
+    "slow": 4,
+    "fast": 48,
+    "unobserved": 0
+   }
+  },
+  "96-demo_clip_0032": {
+   "n_frames": 48,
+   "ok_rate": 1.0,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "98-taiwan-training_clip_0006": {
+   "n_frames": 606,
+   "ok_rate": 0.8943894389438944,
+   "n_windows": 36,
+   "bins": {
+    "still": 0,
+    "slow": 1,
+    "fast": 33,
+    "unobserved": 2
+   }
+  },
+  "98-taiwan-training_clip_0037": {
+   "n_frames": 545,
+   "ok_rate": 1.0,
+   "n_windows": 33,
+   "bins": {
+    "still": 0,
+    "slow": 32,
+    "fast": 1,
+    "unobserved": 0
+   }
+  },
+  "AirJaws2001_clip_0000": {
+   "n_frames": 169,
+   "ok_rate": 0.28994082840236685,
+   "n_windows": 9,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 8
+   }
+  },
+  "AirJaws2001_clip_0079": {
+   "n_frames": 134,
+   "ok_rate": 0.8134328358208955,
+   "n_windows": 7,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 6,
+    "unobserved": 1
+   }
+  },
+  "AirJaws2001_clip_0084": {
+   "n_frames": 186,
+   "ok_rate": 0.08064516129032258,
+   "n_windows": 10,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 10
+   }
+  },
+  "American1955_2_clip_0005": {
+   "n_frames": 75,
+   "ok_rate": 0.0,
+   "n_windows": 3,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 3
+   }
+  },
+  "armored-animals_202511_clip_0018": {
+   "n_frames": 112,
+   "ok_rate": 0.6517857142857143,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 3,
+    "unobserved": 3
+   }
+  },
+  "AtomBomb1946_clip_0002": {
+   "n_frames": 359,
+   "ok_rate": 0.15598885793871867,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 19
+   }
+  },
+  "beardy-beatem-up-bryan-leung-double-feature_clip_0003": {
+   "n_frames": 312,
+   "ok_rate": 0.7307692307692307,
+   "n_windows": 18,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 14,
+    "unobserved": 4
+   }
+  },
+  "beardy-beatem-up-bryan-leung-double-feature_clip_0007": {
+   "n_frames": 193,
+   "ok_rate": 0.13989637305699482,
+   "n_windows": 11,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 10
+   }
+  },
+  "beardy-beatem-up-bryan-leung-double-feature_clip_0009": {
+   "n_frames": 255,
+   "ok_rate": 0.7725490196078432,
+   "n_windows": 14,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 8,
+    "unobserved": 6
+   }
+  },
+  "beardy-beatem-up-bryan-leung-double-feature_clip_0012": {
+   "n_frames": 116,
+   "ok_rate": 0.853448275862069,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 6,
+    "unobserved": 0
+   }
+  },
+  "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0086": {
+   "n_frames": 313,
+   "ok_rate": 0.952076677316294,
+   "n_windows": 18,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 18,
+    "unobserved": 0
+   }
+  },
+  "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0092": {
+   "n_frames": 310,
+   "ok_rate": 0.9612903225806452,
+   "n_windows": 18,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 18,
+    "unobserved": 0
+   }
+  },
+  "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0093": {
+   "n_frames": 161,
+   "ok_rate": 0.9813664596273292,
+   "n_windows": 9,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 9,
+    "unobserved": 0
+   }
+  },
+  "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0456": {
+   "n_frames": 362,
+   "ok_rate": 0.8646408839779005,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 20,
+    "unobserved": 1
+   }
+  },
+  "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0500": {
+   "n_frames": 349,
+   "ok_rate": 0.8252148997134671,
+   "n_windows": 20,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 16,
+    "unobserved": 4
+   }
+  },
+  "camera-slowly-pushes-in-on-the-woman-with-rabbit-e": {
+   "n_frames": 125,
+   "ok_rate": 0.992,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 6,
+    "unobserved": 0
+   }
+  },
+  "CombatFa1945_clip_0036": {
+   "n_frames": 268,
+   "ok_rate": 0.8134328358208955,
+   "n_windows": 15,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 12,
+    "unobserved": 3
+   }
+  },
+  "Conquerb1943_clip_0009": {
+   "n_frames": 134,
+   "ok_rate": 0.21641791044776118,
+   "n_windows": 7,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 5
+   }
+  },
+  "Despotis1946_clip_0003": {
+   "n_frames": 107,
+   "ok_rate": 0.9813084112149533,
+   "n_windows": 5,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 5,
+    "unobserved": 0
+   }
+  },
+  "dni.ncaa.CVI-BETA_1153-BC_clip_0003": {
+   "n_frames": 571,
+   "ok_rate": 0.8318739054290718,
+   "n_windows": 34,
+   "bins": {
+    "still": 0,
+    "slow": 2,
+    "fast": 26,
+    "unobserved": 6
+   }
+  },
+  "frozen-planet_clip_0027": {
+   "n_frames": 220,
+   "ok_rate": 0.6681818181818182,
+   "n_windows": 12,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 9,
+    "unobserved": 3
+   }
+  },
+  "frozen-planet_clip_0029": {
+   "n_frames": 482,
+   "ok_rate": 0.3796680497925311,
+   "n_windows": 29,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 11,
+    "unobserved": 18
+   }
+  },
+  "frozen-planet_clip_0030": {
+   "n_frames": 537,
+   "ok_rate": 0.08379888268156424,
+   "n_windows": 32,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 3,
+    "unobserved": 29
+   }
+  },
+  "frozen-planet_clip_0032": {
+   "n_frames": 276,
+   "ok_rate": 0.15579710144927536,
+   "n_windows": 16,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 14
+   }
+  },
+  "jd-star-1997-1-16_202103_clip_0076": {
+   "n_frames": 176,
+   "ok_rate": 0.6363636363636364,
+   "n_windows": 10,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 5,
+    "unobserved": 5
+   }
+  },
+  "Medicusc1939_11_clip_0001": {
+   "n_frames": 381,
+   "ok_rate": 0.17060367454068243,
+   "n_windows": 22,
+   "bins": {
+    "still": 0,
+    "slow": 1,
+    "fast": 3,
+    "unobserved": 18
+   }
+  },
+  "Merantau_clip_0005": {
+   "n_frames": 135,
+   "ok_rate": 1.0,
+   "n_windows": 7,
+   "bins": {
+    "still": 0,
+    "slow": 2,
+    "fast": 5,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0007": {
+   "n_frames": 123,
+   "ok_rate": 0.8211382113821138,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 4,
+    "unobserved": 2
+   }
+  },
+  "Merantau_clip_0011": {
+   "n_frames": 372,
+   "ok_rate": 0.8413978494623656,
+   "n_windows": 22,
+   "bins": {
+    "still": 0,
+    "slow": 2,
+    "fast": 18,
+    "unobserved": 2
+   }
+  },
+  "Merantau_clip_0273": {
+   "n_frames": 118,
+   "ok_rate": 0.9067796610169492,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 6,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0308": {
+   "n_frames": 362,
+   "ok_rate": 0.856353591160221,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 20,
+    "unobserved": 1
+   }
+  },
+  "Merantau_clip_0309": {
+   "n_frames": 248,
+   "ok_rate": 0.967741935483871,
+   "n_windows": 14,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 14,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0310": {
+   "n_frames": 114,
+   "ok_rate": 0.5350877192982456,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 3,
+    "unobserved": 3
+   }
+  },
+  "Merantau_clip_0311": {
+   "n_frames": 259,
+   "ok_rate": 0.8918918918918919,
+   "n_windows": 15,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 15,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0313": {
+   "n_frames": 48,
+   "ok_rate": 0.875,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0314": {
+   "n_frames": 362,
+   "ok_rate": 0.9917127071823204,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 21,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0315": {
+   "n_frames": 237,
+   "ok_rate": 0.9873417721518988,
+   "n_windows": 13,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 13,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0317": {
+   "n_frames": 219,
+   "ok_rate": 0.9406392694063926,
+   "n_windows": 12,
+   "bins": {
+    "still": 0,
+    "slow": 1,
+    "fast": 11,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0319": {
+   "n_frames": 81,
+   "ok_rate": 0.345679012345679,
+   "n_windows": 4,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 1,
+    "unobserved": 3
+   }
+  },
+  "Merantau_clip_0320": {
+   "n_frames": 240,
+   "ok_rate": 0.5375,
+   "n_windows": 14,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 8,
+    "unobserved": 6
+   }
+  },
+  "Merantau_clip_0323": {
+   "n_frames": 212,
+   "ok_rate": 0.6981132075471698,
+   "n_windows": 12,
+   "bins": {
+    "still": 0,
+    "slow": 5,
+    "fast": 4,
+    "unobserved": 3
+   }
+  },
+  "Merantau_clip_0324": {
+   "n_frames": 93,
+   "ok_rate": 0.956989247311828,
+   "n_windows": 4,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 4,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0325": {
+   "n_frames": 317,
+   "ok_rate": 0.722397476340694,
+   "n_windows": 18,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 13,
+    "unobserved": 5
+   }
+  },
+  "Merantau_clip_0326": {
+   "n_frames": 181,
+   "ok_rate": 0.988950276243094,
+   "n_windows": 10,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 10,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0327": {
+   "n_frames": 48,
+   "ok_rate": 1.0,
+   "n_windows": 2,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0328": {
+   "n_frames": 98,
+   "ok_rate": 0.9591836734693877,
+   "n_windows": 5,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 5,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0329": {
+   "n_frames": 119,
+   "ok_rate": 1.0,
+   "n_windows": 6,
+   "bins": {
+    "still": 0,
+    "slow": 3,
+    "fast": 3,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0330": {
+   "n_frames": 200,
+   "ok_rate": 0.93,
+   "n_windows": 11,
+   "bins": {
+    "still": 0,
+    "slow": 1,
+    "fast": 10,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0331": {
+   "n_frames": 247,
+   "ok_rate": 0.9068825910931174,
+   "n_windows": 14,
+   "bins": {
+    "still": 0,
+    "slow": 5,
+    "fast": 9,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0332": {
+   "n_frames": 362,
+   "ok_rate": 0.9779005524861878,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 5,
+    "fast": 16,
+    "unobserved": 0
+   }
+  },
+  "Merantau_clip_0333": {
+   "n_frames": 164,
+   "ok_rate": 0.7926829268292683,
+   "n_windows": 9,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 8,
+    "unobserved": 1
+   }
+  },
+  "Merantau_clip_0334": {
+   "n_frames": 79,
+   "ok_rate": 0.7341772151898734,
+   "n_windows": 3,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 2,
+    "unobserved": 1
+   }
+  },
+  "Merantau_clip_0335": {
+   "n_frames": 416,
+   "ok_rate": 0.6105769230769231,
+   "n_windows": 25,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 14,
+    "unobserved": 11
+   }
+  },
+  "Merantau_clip_0336": {
+   "n_frames": 211,
+   "ok_rate": 0.7867298578199052,
+   "n_windows": 12,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 9,
+    "unobserved": 3
+   }
+  },
+  "Merantau_clip_0337": {
+   "n_frames": 362,
+   "ok_rate": 0.511049723756906,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 11,
+    "unobserved": 10
+   }
+  },
+  "Merantau_clip_0338": {
+   "n_frames": 561,
+   "ok_rate": 0.45454545454545453,
+   "n_windows": 34,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 14,
+    "unobserved": 20
+   }
+  },
+  "Merantau_clip_0339": {
+   "n_frames": 362,
+   "ok_rate": 0.7348066298342542,
+   "n_windows": 21,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 15,
+    "unobserved": 6
+   }
+  },
+  "Merantau_clip_0340": {
+   "n_frames": 305,
+   "ok_rate": 0.49836065573770494,
+   "n_windows": 18,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 8,
+    "unobserved": 10
+   }
+  },
+  "Merantau_clip_0341": {
+   "n_frames": 137,
+   "ok_rate": 0.7007299270072993,
+   "n_windows": 7,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 6,
+    "unobserved": 1
+   }
+  },
+  "Merantau_clip_0342": {
+   "n_frames": 146,
+   "ok_rate": 0.5958904109589042,
+   "n_windows": 8,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 4,
+    "unobserved": 4
+   }
+  },
+  "Merantau_clip_0343": {
+   "n_frames": 100,
+   "ok_rate": 0.74,
+   "n_windows": 5,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 3,
+    "unobserved": 2
+   }
+  },
+  "Merantau_clip_0344": {
+   "n_frames": 147,
+   "ok_rate": 0.5306122448979592,
+   "n_windows": 8,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 3,
+    "unobserved": 5
+   }
+  },
+  "Merantau_clip_0345": {
+   "n_frames": 227,
+   "ok_rate": 0.5066079295154186,
+   "n_windows": 13,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 5,
+    "unobserved": 8
+   }
+  },
+  "Merantau_clip_0346": {
+   "n_frames": 189,
+   "ok_rate": 0.4497354497354497,
+   "n_windows": 10,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 0,
+    "unobserved": 10
+   }
+  },
+  "Merantau_clip_0347": {
+   "n_frames": 135,
+   "ok_rate": 0.6444444444444445,
+   "n_windows": 7,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 5,
+    "unobserved": 2
+   }
+  },
+  "Merantau_clip_0348": {
+   "n_frames": 239,
+   "ok_rate": 0.4393305439330544,
+   "n_windows": 13,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 6,
+    "unobserved": 7
+   }
+  },
+  "Merantau_clip_0349": {
+   "n_frames": 98,
+   "ok_rate": 0.9081632653061225,
+   "n_windows": 5,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 5,
+    "unobserved": 0
+   }
+  },
+  "video115": {
+   "n_frames": 600,
+   "ok_rate": 0.08333333333333333,
+   "n_windows": 36,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 3,
+    "unobserved": 33
+   }
+  },
+  "video12": {
+   "n_frames": 240,
+   "ok_rate": 0.55,
+   "n_windows": 14,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 8,
+    "unobserved": 6
+   }
+  },
+  "video123": {
+   "n_frames": 350,
+   "ok_rate": 1.0,
+   "n_windows": 20,
+   "bins": {
+    "still": 0,
+    "slow": 5,
+    "fast": 15,
+    "unobserved": 0
+   }
+  },
+  "video145": {
+   "n_frames": 234,
+   "ok_rate": 0.7564102564102564,
+   "n_windows": 13,
+   "bins": {
+    "still": 0,
+    "slow": 1,
+    "fast": 11,
+    "unobserved": 1
+   }
+  },
+  "video186": {
+   "n_frames": 250,
+   "ok_rate": 0.856,
+   "n_windows": 14,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 11,
+    "unobserved": 3
+   }
+  },
+  "video190": {
+   "n_frames": 390,
+   "ok_rate": 0.4512820512820513,
+   "n_windows": 23,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 13,
+    "unobserved": 10
+   }
+  },
+  "video215": {
+   "n_frames": 510,
+   "ok_rate": 0.996078431372549,
+   "n_windows": 30,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 30,
+    "unobserved": 0
+   }
+  },
+  "video217": {
+   "n_frames": 275,
+   "ok_rate": 0.9781818181818182,
+   "n_windows": 16,
+   "bins": {
+    "still": 0,
+    "slow": 1,
+    "fast": 15,
+    "unobserved": 0
+   }
+  },
+  "video237": {
+   "n_frames": 264,
+   "ok_rate": 0.5037878787878788,
+   "n_windows": 15,
+   "bins": {
+    "still": 0,
+    "slow": 1,
+    "fast": 7,
+    "unobserved": 7
+   }
+  },
+  "video239": {
+   "n_frames": 180,
+   "ok_rate": 0.5277777777777778,
+   "n_windows": 10,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 4,
+    "unobserved": 6
+   }
+  },
+  "video40": {
+   "n_frames": 660,
+   "ok_rate": 0.9787878787878788,
+   "n_windows": 40,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 40,
+    "unobserved": 0
+   }
+  },
+  "video47": {
+   "n_frames": 300,
+   "ok_rate": 0.78,
+   "n_windows": 17,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 13,
+    "unobserved": 4
+   }
+  },
+  "video48": {
+   "n_frames": 475,
+   "ok_rate": 0.9831578947368421,
+   "n_windows": 28,
+   "bins": {
+    "still": 0,
+    "slow": 4,
+    "fast": 24,
+    "unobserved": 0
+   }
+  },
+  "video8": {
+   "n_frames": 900,
+   "ok_rate": 1.0,
+   "n_windows": 55,
+   "bins": {
+    "still": 0,
+    "slow": 0,
+    "fast": 55,
+    "unobserved": 0
+   }
+  },
+  "video82": {
+   "n_frames": 660,
+   "ok_rate": 0.8106060606060606,
+   "n_windows": 40,
+   "bins": {
+    "still": 0,
+    "slow": 8,
+    "fast": 26,
+    "unobserved": 6
+   }
+  }
+ },
+ "bins": {
+  "still": {
+   "n_windows": 0,
+   "subject_speed_norm_per_s_p50": null,
+   "subject_speed_norm_per_s_p90": null
+  },
+  "slow": {
+   "n_windows": 212,
+   "subject_speed_norm_per_s_p50": 0.08877745646060363,
+   "subject_speed_norm_per_s_p90": 0.1367492137219871
+  },
+  "fast": {
+   "n_windows": 1094,
+   "subject_speed_norm_per_s_p50": 0.48908057258590787,
+   "subject_speed_norm_per_s_p90": 1.342427596433918
+  },
+  "unobserved": {
+   "n_windows": 539,
+   "subject_speed_norm_per_s_p50": 0.0,
+   "subject_speed_norm_per_s_p90": 1.3855857890669765
+  }
+ },
+ "bins_populated": false,
+ "empty_bins": [
+  "still"
+ ],
+ "identity_curation": {
+  "unreviewed": [
+   "001132_clip_0003",
+   "001132_clip_0016",
+   "001132_clip_0019",
+   "001132_clip_0022",
+   "0081ResponsibilitiesOfAmericanCitizenshipThe_clip_0012_c7",
+   "0081ResponsibilitiesOfAmericanCitizenshipThe_clip_0016_c14",
+   "0105_To_the_Fair_17_31_23_00_clip_0002",
+   "0105_To_the_Fair_17_31_23_00_clip_0018",
+   "0105_To_the_Fair_17_31_23_00_clip_0022",
+   "0545_Chevrolet_Leader_News_Vol_5_No_1_M00643_23_20_56_06_clip_0004",
+   "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0084_c10",
+   "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0087_c9",
+   "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0195_c14",
+   "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0198_c13",
+   "0923_Some_Fruits_We_Like_00_01_00_29_clip_0012",
+   "098863_201908_clip_0008",
+   "098863_201908_clip_0009",
+   "1-hour-karate-workout-video_clip_0011",
+   "1-hour-karate-workout-video_clip_0012",
+   "1-hour-karate-workout-video_clip_0013",
+   "1-hour-karate-workout-video_clip_0063",
+   "1-hour-karate-workout-video_clip_0123",
+   "1-hour-karate-workout-video_clip_0212",
+   "1-hour-karate-workout-video_clip_0256",
+   "1-hour-karate-workout-video_clip_0261",
+   "102758_c14",
+   "104045_c11",
+   "104485_c6",
+   "105848_c14",
+   "106521_c5",
+   "108157_c10",
+   "11088_c8",
+   "11440_c11",
+   "11878_c12",
+   "13374_c13",
+   "14615_c6",
+   "14880_c11",
+   "16167_c9",
+   "1776_c7",
+   "180163_c13",
+   "96-demo_clip_0003",
+   "96-demo_clip_0011",
+   "96-demo_clip_0016",
+   "96-demo_clip_0017",
+   "96-demo_clip_0029",
+   "96-demo_clip_0031",
+   "96-demo_clip_0032",
+   "98-taiwan-training_clip_0006",
+   "98-taiwan-training_clip_0037",
+   "AirJaws2001_clip_0000",
+   "AirJaws2001_clip_0079",
+   "AirJaws2001_clip_0084",
+   "American1955_2_clip_0005",
+   "AtomBomb1946_clip_0002",
+   "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0086",
+   "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0092",
+   "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0093",
+   "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0456",
+   "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0500",
+   "CombatFa1945_clip_0036",
+   "Conquerb1943_clip_0009",
+   "Despotis1946_clip_0003",
+   "Medicusc1939_11_clip_0001",
+   "Merantau_clip_0005",
+   "Merantau_clip_0007",
+   "Merantau_clip_0011",
+   "Merantau_clip_0273",
+   "Merantau_clip_0308",
+   "Merantau_clip_0309",
+   "Merantau_clip_0310",
+   "Merantau_clip_0311",
+   "Merantau_clip_0313",
+   "Merantau_clip_0314",
+   "Merantau_clip_0315",
+   "Merantau_clip_0317",
+   "Merantau_clip_0319",
+   "Merantau_clip_0320",
+   "Merantau_clip_0323",
+   "Merantau_clip_0324",
+   "Merantau_clip_0325",
+   "Merantau_clip_0326",
+   "Merantau_clip_0327",
+   "Merantau_clip_0328",
+   "Merantau_clip_0329",
+   "Merantau_clip_0330",
+   "Merantau_clip_0331",
+   "Merantau_clip_0332",
+   "Merantau_clip_0333",
+   "Merantau_clip_0334",
+   "Merantau_clip_0335",
+   "Merantau_clip_0336",
+   "Merantau_clip_0337",
+   "Merantau_clip_0338",
+   "Merantau_clip_0339",
+   "Merantau_clip_0340",
+   "Merantau_clip_0341",
+   "Merantau_clip_0342",
+   "Merantau_clip_0343",
+   "Merantau_clip_0344",
+   "Merantau_clip_0345",
+   "Merantau_clip_0346",
+   "Merantau_clip_0347",
+   "Merantau_clip_0348",
+   "Merantau_clip_0349",
+   "armored-animals_202511_clip_0018",
+   "beardy-beatem-up-bryan-leung-double-feature_clip_0003",
+   "beardy-beatem-up-bryan-leung-double-feature_clip_0007",
+   "beardy-beatem-up-bryan-leung-double-feature_clip_0009",
+   "beardy-beatem-up-bryan-leung-double-feature_clip_0012",
+   "camera-slowly-pushes-in-on-the-woman-with-rabbit-e",
+   "dni.ncaa.CVI-BETA_1153-BC_clip_0003",
+   "frozen-planet_clip_0027",
+   "frozen-planet_clip_0029",
+   "frozen-planet_clip_0030",
+   "frozen-planet_clip_0032",
+   "jd-star-1997-1-16_202103_clip_0076",
+   "video115",
+   "video12",
+   "video123",
+   "video145",
+   "video186",
+   "video190",
+   "video215",
+   "video217",
+   "video237",
+   "video239",
+   "video40",
+   "video47",
+   "video48",
+   "video8",
+   "video82"
+  ],
+  "complete": false
+ },
+ "splits": null,
+ "leakage": null,
+ "gate": {
+  "cache_complete": true,
+  "bins_populated": false,
+  "identity_curation_complete": false,
+  "leakage_clean": false,
+  "gate": "INCOMPLETE"
+ }
+}

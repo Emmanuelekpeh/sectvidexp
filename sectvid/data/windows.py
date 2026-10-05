@@ -30,11 +30,17 @@ def assign_bin(subject_speed, bins_cfg):
     return "slow"
 
 
-def step_observed(a, b, min_conf=0.3):
+def step_observed(a, b, min_conf=0.3, require_camera_conf=False):
     """True when both frames carry a usable pose (both ok, >=4 points with
     conf >= min_conf). Such a step can contribute to the subject-motion
-    estimate, whether the subject moved or was genuinely still."""
+    estimate, whether the subject moved or was genuinely still.
+    
+    If require_camera_conf=True, also requires b.camera_conf > 0 so that
+    camera-corrected subject motion is not computed from a fallback identity
+    transform (which would measure raw image motion = camera + subject)."""
     if not (a.ok and b.ok):
+        return False
+    if require_camera_conf and b.camera_conf <= 0.0:
         return False
     return int(((a.body[:, 2] >= min_conf) & (b.body[:, 2] >= min_conf)).sum()) >= 4
 
@@ -43,13 +49,17 @@ def window_subject_speed(structs, min_conf=0.3):
     """(mean SUBJECT speed in normalized units/second over observed steps,
     observed step fraction). Steps with missing/low-confidence detections are
     excluded from the speed average rather than counted as zero motion; the
-    fraction reports how much of the window was actually observed."""
+    fraction reports how much of the window was actually observed.
+    
+    Requires camera_conf > 0 for camera-corrected subject motion (spec 6.2:
+    bins classify subject motion with camera removed). Steps with zero camera
+    confidence are treated as unobserved for subject motion."""
     if len(structs) < 2:
         return 0.0, 0.0
     obs, speeds = [], []
     for i in range(len(structs) - 1):
         a, b = structs[i], structs[i + 1]
-        if step_observed(a, b, min_conf):
+        if step_observed(a, b, min_conf, require_camera_conf=True):
             obs.append(1)
             dt = b.dt if b.dt > 0 else a.dt
             dt = dt if dt > 0 else 1.0 / 24.0

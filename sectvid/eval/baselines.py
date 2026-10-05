@@ -122,11 +122,11 @@ def run_stage0(cfg):
         windows = build_windows(cfg, cid, structs)
         for w in windows:
             bins_seen.add(w["bin"])
-        ok_frames = [i for i, s in enumerate(window) if s.ok]
+        ok_frames_all = [i for i, s in enumerate(structs) if s.ok]
         refs = select_references(
             identity_clips=[cid],
             target_window={"clip_id": cid, "start": 0, "end": wlen},
-            available_frames={cid: [f for f in ok_frames if f >= wlen] or []},
+            available_frames={cid: [f for f in ok_frames_all if f >= wlen] or []},
             min_gap_frames=cfg["reference"]["min_gap_frames"],
             count=cfg["reference"]["count"],
             seed=seed,

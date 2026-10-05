@@ -49,12 +49,14 @@ def centroid_px(s, width, min_conf=0.5):
 
 
 def subject_speeds_px(structs, width):
-    """Per-frame SUBJECT displacement (px) on observed steps, camera-corrected."""
+    """Per-frame SUBJECT displacement (px) on observed steps, camera-corrected.
+    Requires camera_conf > 0 so fallback identity transform doesn't pollute
+    subject-motion estimates (spec 6.2)."""
     from sectvid.structure.schema import camera_corrected_prev_points
     speeds, nets = [], []
     for i in range(len(structs) - 1):
         a, b = structs[i], structs[i + 1]
-        if not W.step_observed(a, b, 0.5):
+        if not W.step_observed(a, b, 0.5, require_camera_conf=True):
             continue
         pa, _ = camera_corrected_prev_points(a, b, 0.5)
         valid = (a.body[:, 2] >= 0.5) & (b.body[:, 2] >= 0.5)
@@ -68,7 +70,9 @@ def subject_speeds_px(structs, width):
 def net_displacement_px(structs, width, wstart):
     """Window (32 frames) net SUBJECT displacement (px): chain of
     camera-corrected per-frame displacements — a still subject random-walks
-    around its position; a moving subject accumulates."""
+    around its position; a moving subject accumulates.
+    Requires camera_conf > 0 so fallback identity transform doesn't pollute
+    subject-motion estimates (spec 6.2)."""
     from sectvid.structure.schema import camera_corrected_prev_points
     wlen = 32
     seg = structs[wstart:wstart + wlen]
@@ -77,7 +81,7 @@ def net_displacement_px(structs, width, wstart):
     acc = np.zeros(2)
     for i in range(1, len(seg)):
         a, b = seg[i - 1], seg[i]
-        if not W.step_observed(a, b, 0.5):
+        if not W.step_observed(a, b, 0.5, require_camera_conf=True):
             continue
         pa, _ = camera_corrected_prev_points(a, b, 0.5)
         valid = (a.body[:, 2] >= 0.5) & (b.body[:, 2] >= 0.5)
@@ -143,17 +147,21 @@ def main():
         structs = cache.load_structure(cfg, cid, include_silhouette=False)
         props = data_clips.clip_properties(cfg, cid)
         width = props["width"]
-        frames = data_clips.load_frames(cfg, cid, 0, 64)
-        shifts = jitter_probe(ext, frames, width)
+        shifts = jitter_probe(ext, data_clips.load_frames(cfg, cid, 0, 64), width)
         speeds = subject_speeds_px(structs, width)
         nets = [net_displacement_px(structs, width, s) for s in range(0, len(structs) - 32, 32)]
         nets = [n for n in nets if n is not None]
         noise_p50 = float(np.percentile(shifts, 50)) if shifts else None
         noise_p90 = float(np.percentile(shifts, 90)) if shifts else None
         # slowest 32-frame window for the contact sheet
-        w_idx = min(range(max(len(structs) - 32, 1)), key=lambda s: float(np.mean(
-            [x for x in [speeds[i] for i in range(s, min(s + 31, len(speeds))) if i < len(speeds)] or [0.0])))
-        strip = frames[w_idx:min(w_idx + 8, len(frames))]
+        def window_mean_speed(s):
+            end = min(s + 31, len(speeds))
+            vals = [speeds[i] for i in range(s, end) if i < len(speeds)]
+            return float(np.mean(vals)) if vals else 0.0
+        w_idx = min(range(max(len(structs) - 32, 1)), key=window_mean_speed)
+        # load frames at the actual window position for the contact sheet
+        frames_at_window = data_clips.load_frames(cfg, cid, w_idx, w_idx + 8)
+        strip = frames_at_window
         label = f"{cid} speed_p50={np.percentile(speeds, 50):.1f}px net_p50={np.percentile(nets, 50) if nets else 0:.1f}px noise_p90={noise_p90 if noise_p90 else 0:.1f}px"
         sheets.append((strip, label))
         rows.append({
