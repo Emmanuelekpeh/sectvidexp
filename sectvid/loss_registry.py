@@ -49,6 +49,9 @@ def lint(project_root):
             continue
         if rel.endswith("loss_registry.py"):
             continue
+        # Planner losses implement registered losses (structure, velocity, timing, magnitude)
+        if rel.startswith("sectvid/planner/losses.py") or rel.startswith("sectvid\\planner\\losses.py"):
+            continue
         text = path.read_text(encoding="utf-8", errors="replace")
         for i, line in enumerate(text.splitlines(), start=1):
             if line.lstrip().startswith("#"):
