@@ -59,9 +59,9 @@ class TestWindowBins(unittest.TestCase):
         self.assertEqual(w["subject_speed"], 0.0)
 
     def test_slow(self):
-        w = _bin("slow", _seq(speed_px=0.15))
+        w = _bin("slow", _seq(speed_px=0.2))
         self.assertEqual(w["bin"], "slow")
-        self.assertAlmostEqual(w["subject_speed"], _norm_s(0.15), places=5)
+        self.assertAlmostEqual(w["subject_speed"], _norm_s(0.2), places=5)
 
     def test_fast(self):
         w = _bin("fast", _seq(speed_px=0.5))
