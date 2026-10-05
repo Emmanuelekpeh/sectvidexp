@@ -1,0 +1,143 @@
+{
+ "meta": {
+  "sectvid_version": "4.0.0",
+  "config_path": "C:\\Users\\emman\\Downloads\\sectvid-master\\configs\\default.yaml",
+  "seed": 12345,
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "generated_at": "2026-10-05T11:29:19.452487+00:00"
+ },
+ "96-demo_clip_0031": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0309": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "1-hour-karate-workout-video_clip_0063": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0308": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "1-hour-karate-workout-video_clip_0123": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0327": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0324": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0313": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "camera_conf_mean_real": 0.9693327019692806,
+ "camera_subject_residual_px_p50": 23.502588272094727,
+ "camera_translation_err_px": 7.971204240344022,
+ "camera_translation_err_norm": 0.012455006625537534,
+ "dropout_examples": [
+  {
+   "clip": "Merantau_clip_0309",
+   "frame": 0
+  },
+  {
+   "clip": "Merantau_clip_0309",
+   "frame": 1
+  },
+  {
+   "clip": "Merantau_clip_0309",
+   "frame": 3
+  },
+  {
+   "clip": "Merantau_clip_0309",
+   "frame": 20
+  },
+  {
+   "clip": "Merantau_clip_0309",
+   "frame": 23
+  },
+  {
+   "clip": "Merantau_clip_0308",
+   "frame": 22
+  },
+  {
+   "clip": "Merantau_clip_0308",
+   "frame": 23
+  },
+  {
+   "clip": "Merantau_clip_0324",
+   "frame": 12
+  },
+  {
+   "clip": "Merantau_clip_0313",
+   "frame": 0
+  },
+  {
+   "clip": "Merantau_clip_0313",
+   "frame": 1
+  },
+  {
+   "clip": "Merantau_clip_0313",
+   "frame": 2
+  },
+  {
+   "clip": "Merantau_clip_0313",
+   "frame": 3
+  },
+  {
+   "clip": "Merantau_clip_0313",
+   "frame": 4
+  },
+  {
+   "clip": "Merantau_clip_0313",
+   "frame": 5
+  }
+ ],
+ "dropout_rate": 0.07291666666666667,
+ "n_frames_checked": 192,
+ "jitter_max_mean_shift_px": 78.89920806884766,
+ "jitter_p90_mean_shift_px": 30.142431259155273,
+ "jitter_n_frames": 41,
+ "jitter_per_clip": {
+  "96-demo_clip_0031": {
+   "p90_px": 33.36514663696289,
+   "n": 6
+  },
+  "Merantau_clip_0309": {
+   "p90_px": 54.41501922607422,
+   "n": 3
+  },
+  "1-hour-karate-workout-video_clip_0063": {
+   "p90_px": 3.5611578226089478,
+   "n": 6
+  },
+  "Merantau_clip_0308": {
+   "p90_px": 7.39127025604248,
+   "n": 5
+  },
+  "1-hour-karate-workout-video_clip_0123": {
+   "p90_px": 2.880339026451111,
+   "n": 6
+  },
+  "Merantau_clip_0327": {
+   "p90_px": 54.520819664001465,
+   "n": 6
+  },
+  "Merantau_clip_0324": {
+   "p90_px": 7.46348934173584,
+   "n": 5
+  },
+  "Merantau_clip_0313": {
+   "p90_px": 16.309515190124515,
+   "n": 4
+  }
+ }
+}

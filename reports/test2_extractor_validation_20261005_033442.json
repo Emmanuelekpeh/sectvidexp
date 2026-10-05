@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "sectvid_version": "4.0.0",
+  "config_path": "C:\\Users\\emman\\Downloads\\sectvid-master\\configs\\default.yaml",
+  "seed": 12345,
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "generated_at": "2026-10-05T03:34:42.735696+00:00"
+ },
+ "96-demo_clip_0032": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "1-hour-karate-workout-video_clip_0212": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0327": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0313": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "camera_conf_mean_real": 0.8287630215101117,
+ "camera_translation_err_px": 7.971204240344022,
+ "camera_translation_err_norm": 0.012455006625537534,
+ "dropout_examples": [
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 3
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 5
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 6
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 10
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 12
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 13
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 14
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 15
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 16
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 17
+  },
+  {
+   "clip": "96-demo_clip_0032",
+   "frame": 18
+  }
+ ]
+}

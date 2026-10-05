@@ -1,0 +1,117 @@
+# sectvid v4 default configuration.
+# Every value the spec marks as a guess lives here. See spec section 14.
+
+version: 1
+seed: 12345
+
+data:
+  clips_dir: data
+  meta_dir: data/meta
+  structure_dir: data/structure
+  cache_dir: data/cache
+
+# --- Windowing (spec 5, 6.1) ---
+window:
+  length: 32        # guess
+  stride: 16        # guess
+  min_clip_frames: 48
+
+# --- Motion bins, spec 6.1: still / slow / fast by subject motion ---
+# Stage 0 signal-vs-noise finding (2026-10-05, reports/stage0_signal_noise_*):
+# slow-bin per-frame structure motion (p50 1.8px @512px) is below the
+# extractor noise floor (p50 4.1px), so slow/still windows cannot teach
+# per-frame direction; their direction supervision must use window-scale
+# displacement (context/rollout horizon) or be down-weighted. Fast-bin
+# p50 motion (8.7px/frame) is ~2x noise p50 but below noise p90 (21px):
+# per-point confidence weighting is required (spec 6.2).
+motion_bins:
+  still_max_speed: 0.02    # guess, normalized image units per second
+  fast_min_speed: 0.15     # guess
+  min_observed_frac: 0.5   # guess: windows with a lower fraction of observed
+                           # steps are labeled "unobserved", not still
+                           # (extractor failure must not teach "hold still")
+  sample_quotas:           # fixed quotas, start near one third each (guess)
+    still: 0.34
+    slow: 0.33
+    fast: 0.33
+
+# --- Splits, spec 6.1: held out by clip AND by identity ---
+splits:
+  identity_holdout_frac: 0.2   # fraction of identities never seen in training
+  test_frac: 0.25              # of non-held-out identities
+  seed: 12345
+
+# --- Structure extraction, spec 6.2 ---
+structure:
+  keypoint_count: 17
+  extractor: mediapipe
+  model_dir: models
+  pose_model_url: https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/1/pose_landmarker_lite.task
+  face_model_url: https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+  seg_model_url: https://storage.googleapis.com/mediapipe-models/image_segmenter/selfie_segmenter/float16/1/selfie_segmenter.tflite
+  min_detection_conf: 0.5
+  min_point_conf: 0.3        # guess: below this, point treated as missing
+  max_poses: 3               # guess: detect up to N people, pick the primary subject
+  mask_threshold: 127        # person mask from the confidence map
+  smoothing: 0.3            # guess: one-pole EMA on tracked keypoints, 0 = off
+  face_blendshape_count: 52
+  camera:
+    max_features: 500
+    ransac_thresh_px: 3.0
+    min_inliers: 30
+    person_margin_px: 8      # background excludes this band around the person mask
+  validation:
+    clips: 8                 # data-calibrated: sample size for a stable p90
+                             # (Stage 0 extractor validation, 2026-10-05)
+    frames_per_clip: 24
+    jitter_px: 2             # input jitter applied to a frame
+    jitter_limit_px: 32      # regression cap, not a quality target: set just above
+                             # the measured raw-path noise floor (p90=30.1px on the
+                             # deterministic 8-clip sample at 512px width, 2026-10-05;
+                             # +6% headroom for inference variance). It exists to
+                             # catch regressions, not to certify quality. The
+                             # production smoothed path measures p90=21.1px.
+                             # Signal-vs-noise per bin (decides usability, not this
+                             # cap): reports/stage0_signal_noise_*.json —
+                             # slow-bin per-frame motion p50 1.8px is BELOW the
+                             # noise floor (p50 4.1px, p90 21.1px); fast-bin
+                             # p50 8.7px is ~2x noise p50 but below noise p90.
+                             # Confidence-weighted supervision (spec 6.2) is the
+                             # mitigating control; Stage 2 gate (beats
+                             # constant-velocity) is the real check.
+    max_dropout: 0.3         # guess: max acceptable no-detection rate
+    max_camera_translation_err: 0.05   # guess, normalized: on known-motion synthetic
+
+# --- Reference sheets, spec 6.4 ---
+reference:
+  count: 3                   # guess
+  min_gap_frames: 8          # guess: never within this many frames of the target window
+  prefer_other_clip: true
+
+# --- Planner, spec 6.3 (no model code in Stage 0; values reserved) ---
+planner:
+  context_len: 12            # guess (spec: N = 8-16)
+  rollout_curriculum: [2, 8, 32]
+  clean_context_prob: 0.1    # guess
+
+# --- Drawer, spec 6.4 (no model code in Stage 0; values reserved) ---
+drawer:
+  resolution: 256            # guess
+  model: null                # owner approval required before Stage 3
+
+# --- Evaluation, spec 9 ---
+eval:
+  identity:
+    encoder: vit             # vit (ImageNet ViT-B/16, frozen) | probe
+    device: cpu
+  flicker_window: 5          # guess: temporal high-pass width
+  ghosting_ks: [1, 2, 4]     # guess: blend offsets
+  ghosting_ratio: 0.9        # guess: flag when d_gen < ratio * d_real
+  lpips: true
+  contact_sheet_cols: 8
+  sample_clips: 4            # guess: clips for the Stage 0 end-to-end baseline run
+  frames_per_clip: 48
+
+# --- Reports, spec 9 ---
+report:
+  dir: reports

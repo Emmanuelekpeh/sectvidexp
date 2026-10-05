@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# Stage 0/1+ supported test suite lives in tests/. The quarantined legacy/
+# tree (old project code) is NOT collected: its tests import modules that no
+# longer exist.
+testpaths = ["tests"]

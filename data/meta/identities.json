@@ -1,0 +1,410 @@
+{
+ "identities": {
+  "src_001132": {
+   "clips": [
+    "001132_clip_0003",
+    "001132_clip_0016",
+    "001132_clip_0019",
+    "001132_clip_0022"
+   ],
+   "note": "source: 001132"
+  },
+  "src_0081responsibilitiesofamericancitizenshi": {
+   "clips": [
+    "0081ResponsibilitiesOfAmericanCitizenshipThe_clip_0012_c7",
+    "0081ResponsibilitiesOfAmericanCitizenshipThe_clip_0016_c14"
+   ],
+   "note": "source: 0081ResponsibilitiesOfAmericanCitizenshipThe"
+  },
+  "src_0105_to_the_fair_17_31_23_00": {
+   "clips": [
+    "0105_To_the_Fair_17_31_23_00_clip_0002",
+    "0105_To_the_Fair_17_31_23_00_clip_0018",
+    "0105_To_the_Fair_17_31_23_00_clip_0022"
+   ],
+   "note": "source: 0105_To_the_Fair_17_31_23_00"
+  },
+  "src_0545_chevrolet_leader_news_vol_5_no_1_m0": {
+   "clips": [
+    "0545_Chevrolet_Leader_News_Vol_5_No_1_M00643_23_20_56_06_clip_0004"
+   ],
+   "note": "source: 0545_Chevrolet_Leader_News_Vol_5_No_1_M00643_23_20_56_06"
+  },
+  "src_0698_hm_wathen_collection_european_trip_": {
+   "clips": [
+    "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0084_c10",
+    "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0087_c9",
+    "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0195_c14",
+    "0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00_clip_0198_c13"
+   ],
+   "note": "source: 0698_HM_Wathen_Collection_European_Trip_1930s_16_01_19_00"
+  },
+  "src_0923_some_fruits_we_like_00_01_00_29": {
+   "clips": [
+    "0923_Some_Fruits_We_Like_00_01_00_29_clip_0012"
+   ],
+   "note": "source: 0923_Some_Fruits_We_Like_00_01_00_29"
+  },
+  "src_098863_201908": {
+   "clips": [
+    "098863_201908_clip_0008",
+    "098863_201908_clip_0009"
+   ],
+   "note": "source: 098863_201908"
+  },
+  "src_1_hour_karate_workout_video": {
+   "clips": [
+    "1-hour-karate-workout-video_clip_0011",
+    "1-hour-karate-workout-video_clip_0012",
+    "1-hour-karate-workout-video_clip_0013",
+    "1-hour-karate-workout-video_clip_0063",
+    "1-hour-karate-workout-video_clip_0123",
+    "1-hour-karate-workout-video_clip_0212",
+    "1-hour-karate-workout-video_clip_0256",
+    "1-hour-karate-workout-video_clip_0261"
+   ],
+   "note": "source: 1-hour-karate-workout-video"
+  },
+  "src_102758": {
+   "clips": [
+    "102758_c14"
+   ],
+   "note": "source: 102758"
+  },
+  "src_104045": {
+   "clips": [
+    "104045_c11"
+   ],
+   "note": "source: 104045"
+  },
+  "src_104485": {
+   "clips": [
+    "104485_c6"
+   ],
+   "note": "source: 104485"
+  },
+  "src_105848": {
+   "clips": [
+    "105848_c14"
+   ],
+   "note": "source: 105848"
+  },
+  "src_106521": {
+   "clips": [
+    "106521_c5"
+   ],
+   "note": "source: 106521"
+  },
+  "src_108157": {
+   "clips": [
+    "108157_c10"
+   ],
+   "note": "source: 108157"
+  },
+  "src_11088": {
+   "clips": [
+    "11088_c8"
+   ],
+   "note": "source: 11088"
+  },
+  "src_11440": {
+   "clips": [
+    "11440_c11"
+   ],
+   "note": "source: 11440"
+  },
+  "src_11878": {
+   "clips": [
+    "11878_c12"
+   ],
+   "note": "source: 11878"
+  },
+  "src_13374": {
+   "clips": [
+    "13374_c13"
+   ],
+   "note": "source: 13374"
+  },
+  "src_14615": {
+   "clips": [
+    "14615_c6"
+   ],
+   "note": "source: 14615"
+  },
+  "src_14880": {
+   "clips": [
+    "14880_c11"
+   ],
+   "note": "source: 14880"
+  },
+  "src_16167": {
+   "clips": [
+    "16167_c9"
+   ],
+   "note": "source: 16167"
+  },
+  "src_1776": {
+   "clips": [
+    "1776_c7"
+   ],
+   "note": "source: 1776"
+  },
+  "src_180163": {
+   "clips": [
+    "180163_c13"
+   ],
+   "note": "source: 180163"
+  },
+  "src_96_demo": {
+   "clips": [
+    "96-demo_clip_0003",
+    "96-demo_clip_0011",
+    "96-demo_clip_0016",
+    "96-demo_clip_0017",
+    "96-demo_clip_0029",
+    "96-demo_clip_0031",
+    "96-demo_clip_0032"
+   ],
+   "note": "source: 96-demo"
+  },
+  "src_98_taiwan_training": {
+   "clips": [
+    "98-taiwan-training_clip_0006",
+    "98-taiwan-training_clip_0037"
+   ],
+   "note": "source: 98-taiwan-training"
+  },
+  "src_airjaws2001": {
+   "clips": [
+    "AirJaws2001_clip_0000",
+    "AirJaws2001_clip_0079",
+    "AirJaws2001_clip_0084"
+   ],
+   "note": "source: AirJaws2001"
+  },
+  "src_american1955_2": {
+   "clips": [
+    "American1955_2_clip_0005"
+   ],
+   "note": "source: American1955_2"
+  },
+  "src_atombomb1946": {
+   "clips": [
+    "AtomBomb1946_clip_0002"
+   ],
+   "note": "source: AtomBomb1946"
+  },
+  "src_bigfight_dream_mma_15_lhwgp_opening_roun": {
+   "clips": [
+    "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0086",
+    "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0092",
+    "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0093",
+    "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0456",
+    "BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10_clip_0500"
+   ],
+   "note": "source: BigFight_DREAM-MMA-15-LHWGP-Opening-Round-7.10.10"
+  },
+  "src_combatfa1945": {
+   "clips": [
+    "CombatFa1945_clip_0036"
+   ],
+   "note": "source: CombatFa1945"
+  },
+  "src_conquerb1943": {
+   "clips": [
+    "Conquerb1943_clip_0009"
+   ],
+   "note": "source: Conquerb1943"
+  },
+  "src_despotis1946": {
+   "clips": [
+    "Despotis1946_clip_0003"
+   ],
+   "note": "source: Despotis1946"
+  },
+  "src_medicusc1939_11": {
+   "clips": [
+    "Medicusc1939_11_clip_0001"
+   ],
+   "note": "source: Medicusc1939_11"
+  },
+  "src_merantau": {
+   "clips": [
+    "Merantau_clip_0005",
+    "Merantau_clip_0007",
+    "Merantau_clip_0011",
+    "Merantau_clip_0273",
+    "Merantau_clip_0308",
+    "Merantau_clip_0309",
+    "Merantau_clip_0310",
+    "Merantau_clip_0311",
+    "Merantau_clip_0313",
+    "Merantau_clip_0314",
+    "Merantau_clip_0315",
+    "Merantau_clip_0317",
+    "Merantau_clip_0319",
+    "Merantau_clip_0320",
+    "Merantau_clip_0323",
+    "Merantau_clip_0324",
+    "Merantau_clip_0325",
+    "Merantau_clip_0326",
+    "Merantau_clip_0327",
+    "Merantau_clip_0328",
+    "Merantau_clip_0329",
+    "Merantau_clip_0330",
+    "Merantau_clip_0331",
+    "Merantau_clip_0332",
+    "Merantau_clip_0333",
+    "Merantau_clip_0334",
+    "Merantau_clip_0335",
+    "Merantau_clip_0336",
+    "Merantau_clip_0337",
+    "Merantau_clip_0338",
+    "Merantau_clip_0339",
+    "Merantau_clip_0340",
+    "Merantau_clip_0341",
+    "Merantau_clip_0342",
+    "Merantau_clip_0343",
+    "Merantau_clip_0344",
+    "Merantau_clip_0345",
+    "Merantau_clip_0346",
+    "Merantau_clip_0347",
+    "Merantau_clip_0348",
+    "Merantau_clip_0349"
+   ],
+   "note": "source: Merantau"
+  },
+  "src_armored_animals_202511": {
+   "clips": [
+    "armored-animals_202511_clip_0018"
+   ],
+   "note": "source: armored-animals_202511"
+  },
+  "src_beardy_beatem_up_bryan_leung_double_feat": {
+   "clips": [
+    "beardy-beatem-up-bryan-leung-double-feature_clip_0003",
+    "beardy-beatem-up-bryan-leung-double-feature_clip_0007",
+    "beardy-beatem-up-bryan-leung-double-feature_clip_0009",
+    "beardy-beatem-up-bryan-leung-double-feature_clip_0012"
+   ],
+   "note": "source: beardy-beatem-up-bryan-leung-double-feature"
+  },
+  "src_camera_slowly_pushes_in_on_the_woman_wit": {
+   "clips": [
+    "camera-slowly-pushes-in-on-the-woman-with-rabbit-e"
+   ],
+   "note": "source: camera-slowly-pushes-in-on-the-woman-with-rabbit-e"
+  },
+  "src_dni_ncaa_cvi_beta_1153_bc": {
+   "clips": [
+    "dni.ncaa.CVI-BETA_1153-BC_clip_0003"
+   ],
+   "note": "source: dni.ncaa.CVI-BETA_1153-BC"
+  },
+  "src_frozen_planet": {
+   "clips": [
+    "frozen-planet_clip_0027",
+    "frozen-planet_clip_0029",
+    "frozen-planet_clip_0030",
+    "frozen-planet_clip_0032"
+   ],
+   "note": "source: frozen-planet"
+  },
+  "src_jd_star_1997_1_16_202103": {
+   "clips": [
+    "jd-star-1997-1-16_202103_clip_0076"
+   ],
+   "note": "source: jd-star-1997-1-16_202103"
+  },
+  "src_video115": {
+   "clips": [
+    "video115"
+   ],
+   "note": "source: video115"
+  },
+  "src_video12": {
+   "clips": [
+    "video12"
+   ],
+   "note": "source: video12"
+  },
+  "src_video123": {
+   "clips": [
+    "video123"
+   ],
+   "note": "source: video123"
+  },
+  "src_video145": {
+   "clips": [
+    "video145"
+   ],
+   "note": "source: video145"
+  },
+  "src_video186": {
+   "clips": [
+    "video186"
+   ],
+   "note": "source: video186"
+  },
+  "src_video190": {
+   "clips": [
+    "video190"
+   ],
+   "note": "source: video190"
+  },
+  "src_video215": {
+   "clips": [
+    "video215"
+   ],
+   "note": "source: video215"
+  },
+  "src_video217": {
+   "clips": [
+    "video217"
+   ],
+   "note": "source: video217"
+  },
+  "src_video237": {
+   "clips": [
+    "video237"
+   ],
+   "note": "source: video237"
+  },
+  "src_video239": {
+   "clips": [
+    "video239"
+   ],
+   "note": "source: video239"
+  },
+  "src_video40": {
+   "clips": [
+    "video40"
+   ],
+   "note": "source: video40"
+  },
+  "src_video47": {
+   "clips": [
+    "video47"
+   ],
+   "note": "source: video47"
+  },
+  "src_video48": {
+   "clips": [
+    "video48"
+   ],
+   "note": "source: video48"
+  },
+  "src_video8": {
+   "clips": [
+    "video8"
+   ],
+   "note": "source: video8"
+  },
+  "src_video82": {
+   "clips": [
+    "video82"
+   ],
+   "note": "source: video82"
+  }
+ }
+}

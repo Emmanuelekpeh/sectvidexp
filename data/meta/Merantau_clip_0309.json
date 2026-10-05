@@ -1,0 +1,10 @@
+{
+ "identity_id": "Merantau_clip_0309",
+ "behavior": "unlabeled",
+ "direction": "null",
+ "fps": 24.0,
+ "camera_motion_stats": null,
+ "bins": null,
+ "extractor_reliability": "low",
+ "reliability_note": "fast subject motion; 0309 additionally blurred; no face landmarks detected (face_rate 0.0); raw jitter p90 ~54px vs 2-3px on clean clips; see reports/stage0_signal_noise_*.json (2026-10-05)"
+}

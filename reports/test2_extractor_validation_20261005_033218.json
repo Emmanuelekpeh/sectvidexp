@@ -1,0 +1,26 @@
+{
+ "meta": {
+  "sectvid_version": "4.0.0",
+  "config_path": "C:\\Users\\emman\\Downloads\\sectvid-master\\configs\\default.yaml",
+  "seed": 12345,
+  "python": "3.12.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "generated_at": "2026-10-05T03:32:18.941605+00:00"
+ },
+ "96-demo_clip_0032": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "1-hour-karate-workout-video_clip_0212": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0327": {
+  "width": 512,
+  "fps": 24.0
+ },
+ "Merantau_clip_0313": {
+  "width": 512,
+  "fps": 24.0
+ }
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+# Raw videos and structure caches are large; clip metadata (data/meta/) is
+# small, curated, and must be versioned (identity curation, reliability flags).
+data/*
+!data/meta/
+legacy/
+models/
+reports/*.mp4
+reports/*.png
+reports/*.gif
+.kilo/agent-manager.json
