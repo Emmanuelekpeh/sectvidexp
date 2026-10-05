@@ -34,6 +34,7 @@ from sectvid.data import windows as W
 from sectvid.eval import report
 from sectvid.structure import cache
 from sectvid.structure.extractor import StructureExtractor
+from sectvid.structure.schema import step_speed
 
 N_CANDIDATES = 10
 N_CONTROLS = 4
@@ -153,11 +154,17 @@ def main():
         nets = [n for n in nets if n is not None]
         noise_p50 = float(np.percentile(shifts, 50)) if shifts else None
         noise_p90 = float(np.percentile(shifts, 90)) if shifts else None
-        # slowest 32-frame window for the contact sheet
-        def window_mean_speed(s):
-            end = min(s + 31, len(speeds))
-            vals = [speeds[i] for i in range(s, end) if i < len(speeds)]
-            return float(np.mean(vals)) if vals else 0.0
+        # slowest 32-frame window for the contact sheet - use frame indices, not speeds indices
+        def window_mean_speed(frame_start):
+            frame_end = min(frame_start + 32, len(structs))
+            obs_speeds = []
+            for i in range(frame_start, frame_end - 1):
+                a, b = structs[i], structs[i + 1]
+                if W.step_observed(a, b, 0.5, require_camera_conf=True):
+                    dt = b.dt if b.dt > 0 else a.dt
+                    dt = dt if dt > 0 else 1.0 / 24.0
+                    obs_speeds.append(step_speed(a, b, 0.5) / dt)
+            return float(np.mean(obs_speeds)) if obs_speeds else float('inf')
         w_idx = min(range(max(len(structs) - 32, 1)), key=window_mean_speed)
         # load frames at the actual window position for the contact sheet
         frames_at_window = data_clips.load_frames(cfg, cid, w_idx, w_idx + 8)
